@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('Webpage-2/6875927.jpg');
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px white;
+}
+
+.title {
+    color: white;
+    font-family: montserrat, monospace;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.introtextdiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introtext{
+    color: white;
+    margin-top: 120px;
+    font-family: montserrat, monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+.paradiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    color: white;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 320px;
+    margin-right: 320px;
+    font-family: montserrat, monospace;
+    font-size: 12px;
+}
+
+.explorebtndiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.explorebtn{
+    margin-top: 48px;
+    padding: 8px 24px 8px 24px;
+    font-family: montserrat, monospace;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 112px;
+    transition: 0.3s;
+}
+
+.explorebtn:hover{
+    background-color: black;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    box-shadow: 0 0 24px rgb(151, 151, 151);
+}
+
+.instructiondiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update{
+    color: white;
+    margin-top: 48px;
+    font-family: montserrat, monospace;
+    font-weight: 450;
+
+}
+
+@media screen and (max-width: 1400px){
+    .para{
+        margin-left: 112px;
+        margin-right: 112px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .para{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .para{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}

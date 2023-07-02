@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+/* Navbar */
+
+.navbar{
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.navbar .navitemsspan{
+    float: right;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.navitemsspan{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.navitems{    
+    color: rgb(203, 203, 203);
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navitems:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+a:link{
+    text-decoration: none;
+}
